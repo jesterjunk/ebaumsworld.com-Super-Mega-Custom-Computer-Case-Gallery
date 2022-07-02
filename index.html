@@ -13,6 +13,28 @@
         text-align: center;
     }
 
+    /*  URLS  */
+    a:link,
+    a:visited {color: hsl(190, 81%, 67%); text-decoration: none; outline: none;}
+    a:hover {color: hsl(80, 76%, 53%);}
+    a:active {color: hsl(40, 93%, 51%);}
+
+    a.a_style_01:link,
+    a.a_style_01:visited {
+        text-decoration: none;
+        padding-bottom: 1px;
+        border-bottom: 1px hidden hsl(190, 81%, 67%);
+    }
+
+    a.a_style_01:hover {
+        border-bottom-style: solid;
+        border-color: hsl(80, 76%, 53%);
+    }
+    a.a_style_01:active {
+        border-bottom-style: hidden;
+    }
+    /*  URLS  */
+
     div#container_outer {
         margin: 0 auto;
         display: inline-flex;
